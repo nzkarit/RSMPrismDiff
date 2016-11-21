@@ -1,0 +1,16 @@
+UPDATE associatedlicences SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE clientname SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE emission SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE emissionlimit SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE geographicreference SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE issuingoffice SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE licence SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE licenceconditions SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE licencetype SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE location SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE managementright SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE mapdistrict SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE radiationpattern SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE receiveconfiguration SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE spectrum SET import_date = DATE('now') WHERE import_date IS NULL;
+UPDATE transmitconfiguration SET import_date = DATE('now') WHERE import_date IS NULL;
